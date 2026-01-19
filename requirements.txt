@@ -1,0 +1,87 @@
+# ============================================================================
+# Disaster Mission Control - Requirements
+# Aegis Sentinel v5.0 - Integrated ML-Based Disaster Risk Prediction System
+# ============================================================================
+
+# Core Framework
+streamlit==1.53.0
+
+# Data Processing & Analysis
+pandas==2.3.3
+numpy==2.4.1
+
+# Machine Learning
+scikit-learn==1.8.0
+scipy==1.17.0
+joblib==1.5.3
+threadpoolctl==3.6.0
+
+# Visualization
+plotly==6.5.2
+altair==6.0.0
+
+# Mapping & Geolocation
+folium==0.20.0
+streamlit-folium==0.26.1
+streamlit-geolocation==0.0.9
+streamlit-js-eval==1.0.0
+pydeck==0.9.1
+branca==0.8.2
+
+# API & Network
+requests==2.32.5
+urllib3==2.6.3
+certifi==2026.1.4
+
+# Configuration & Environment
+python-dotenv==1.2.1
+
+# Development & Monitoring (Optional)
+watchdog==6.0.0
+
+# Supporting Libraries
+python-dateutil==2.9.0.post0
+pytz==2025.2
+tzdata==2025.3
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+packaging==25.0
+pillow==12.1.0
+tenacity==9.1.2
+tornado==6.5.4
+click==8.3.1
+blinker==1.9.0
+cachetools==6.2.4
+GitPython==3.1.46
+
+# ============================================================================
+# Installation Instructions:
+# ============================================================================
+# 
+# 1. Create virtual environment (if not exists):
+#    python -m venv .venv
+#
+# 2. Activate virtual environment:
+#    Windows: .venv\Scripts\activate
+#    Linux/Mac: source .venv/bin/activate
+#
+# 3. Install all dependencies:
+#    pip install -r requirements.txt
+#
+# 4. Configure API keys in .env file (optional - app works with demo data):
+#    - OPENWEATHER_API_KEY (for real-time weather)
+#    - NASA_FIRMS_KEY (for wildfire detection)
+#    - SENTINEL_API_KEY (for satellite imagery)
+#
+# 5. Run the application:
+#    Windows: run_app.bat
+#    Linux/Mac: streamlit run disaster_mission_control.py
+#
+# ============================================================================
+# Notes:
+# ============================================================================
+# - All libraries are pinned to specific versions for stability
+# - ML models are auto-trained on first run and saved to ./models/
+# - Application works offline with demo data if API keys are not provided
+# - Minimum Python version: 3.9+
+# ============================================================================

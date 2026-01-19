@@ -1,0 +1,33 @@
+{
+  "id": "c2df5b75-6937-4bba-9bea-e84fcf199868",
+  "title": "New Mission",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "**[NEW SESSION INITIALIZED]**\nAwaiting coordinates for the new disaster vector."
+    },
+    {
+      "role": "assistant",
+      "content": "📡 **Location Verified**: New York. Calibrating sensors...\n\nI have successfully synchronized with the local orbital grid. My telemetry sensors are now tuning to your specific coordinates for precise monitoring."
+    },
+    {
+      "role": "assistant",
+      "content": "✅ **Access Granted**: Profile set to **General User**. \n\nAegis Mission Control is now fully operational for your sector. I have adjusted my intelligence filters to prioritize hazards that specifically impact your profile and professional requirements."
+    },
+    {
+      "role": "user",
+      "content": "Test Mission Alpha"
+    },
+    {
+      "role": "assistant",
+      "content": "Greetings. I am awaiting your directive. Please specify a module to initialize: **Map, Risk, Forecast, Safety Protocols, Threat Assessment, Emergency Locator, Community Reports, Smart Survival Kit, or SOS**. I can process multiple requests simultaneously if you require a comprehensive briefing."
+    }
+  ],
+  "location_locked": true,
+  "role_locked": true,
+  "form_city": "New York",
+  "form_lat": 40.7128,
+  "form_lon": -74.006,
+  "form_role": "General User",
+  "last_updated": "2026-01-19T16:37:53.554953"
+}

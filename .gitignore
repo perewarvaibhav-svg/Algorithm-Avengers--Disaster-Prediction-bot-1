@@ -1,0 +1,24 @@
+# Streamlit
+.streamlit/
+static/
+
+# Data & Logs
+mission_logs/*.json
+models/*.joblib
+*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
